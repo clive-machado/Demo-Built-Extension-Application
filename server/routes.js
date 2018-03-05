@@ -13,6 +13,7 @@ module.exports = {
 		GET: {
 			_post: function(req, res) {
 				req.logger.log("in post objects", req.bobjekt)
+				req.logger.log("This is to check auto deploy")
 				req.logger.error("in post objects we are")				
 				// req.bobjekt.unknown()								
 				return when.resolve()				
